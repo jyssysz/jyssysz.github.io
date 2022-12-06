@@ -1,24 +1,276 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
+﻿<!DOCTYPE html>
+<html>
 <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>冰子琪导航</title>
+    <meta name="keywords" content="冰子琪">
+    
+    <!-- font-awesome 图标字体 -->
+    <link href="/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
+    
+    <!-- 核心样式文件 -->
+    <link rel="stylesheet" href="index.css">
 
-       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-       <title> muahao01</title>
+    	<link href="font/embed.css" rel="stylesheet">
+		<link href="css/style.min.css" rel="stylesheet">
+		<script src="https://at.alicdn.com/t/font_1592760_frznr49dvo.js"></script>
+		<script src="https://at.alicdn.com/t/font_1592665_8irfenx66gf.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+		<script src="js/sou.min.js"></script>
+		<link rel="shortcut icon" href="img/logo.ico" />
+		<link rel="stylesheet" href="css/search.min.css" /> 
 
 </head>
-
 <body>
 
-<h1>hello muahao01</h1>
-  这个网页初步测试成功！
+
+<header class="header">
+    <!-- 动画展示区域 -->
+    <div id="victor-container"><div id="victor-output"></div></div>
+    
+    <div class="welcome">
+       <div id="content">
+			<div class="con">
+				<div class="shlogo">
+					<div class="logo-text embed">简洁&nbsp;&nbsp;搜索</div>
+				</div>
+				<section class="sousuo">
+					<div class="search">
+						<div class="search-box">
+							<svg class="icon" id="search-icon" aria-hidden="true">
+								<use xlink:href="#icon-baidu"></use>
+							</svg>
+							<input type="text" id="txt" class="search-input" autocomplete="off" autofocus placeholder="百度搜索" />
+							<svg class="icon" aria-hidden="true" id="search-clear" style="display: none;">
+								<use xlink:href="#icon-shanchu"></use>
+							</svg>
+						</div>
+						<!-- 搜索热词 -->
+						<div class="box search-hot-text" id="box" style="display: none;">
+							<ul></ul>
+						</div>
+						<!-- 搜索引擎 -->
+						<div class="search-engine" style="display: none;">
+							<div class="search-engine-head">
+								<strong class="search-engine-tit">选择您的默认搜索引擎：</strong>
+								<div class="search-engine-tool">
+									搜索热词：<label class="switch">
+										<input id="hot-btn" type="checkbox">
+										<div class="slider round"></div>
+									</label>
+								</div>
+							</div>
+							<ul class="search-engine-list"></ul>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div> 
+        
+    </div>
+    
+    <!--向下滚动提示-->
+    <a class="scroll-down-tips" href="#product" onclick="$('html, body').animate({scrollTop: $('.header').height()}, '500');return false;">
+        <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+        向下滚动
+    </a>
+</header>     <!-- header -->
+
+<div class="container">
+
+<section class="section">
+
+<a name="product"></a>
+<h3 class="mk-sub-title">
+    <span>Product</span>
+    <span>/</span>
+    项目列表
+</h3>
+
+<p class="mk-title-describe">专注于教育教学的应用和导航</p>
+
+<div class="mk-item-box">
+
+<div class="mk-item">
+    <a href="Microsoft/index.html" target="_blank">      <article class="mk-color-item color2">
+            <div class="item-logo">
+                <img src="img/01.png">
+            </div>
+            <h3>Microsoft</h3>
+            <p>原版 Windows 和 Office 下载安装</p>
+          <i class="light"></i>
+      </article>
+    </a>
+</div>      <!-- mk-item -->
+  <div class="mk-item">    <a href="http://www.12580sky.com/" target="_blank">      <article class="mk-color-item color1">
+            <div class="item-logo">
+                <img src="img/02.png">
+            </div>
+            <h3>佳软推荐</h3>
+            <p>强烈推荐安装的软件和APP</p>
+          <i class="light"></i>
+      </article>
+    </a>
+</div>      <!-- mk-item -->
+<div class="mk-item">    <a href="/qrcode/" target="_blank">      <article class="mk-color-item color3">
+            <div class="item-logo">
+                <img src="img/03.png">
+            </div>
+            <h3>教育应用</h3>
+            <p>教育教学用的PC和移动端应用</p>
+          <i class="light"></i>
+      </article>
+    </a>
+</div>      <!-- mk-item -->
+<div class="mk-item">
+    <a href="/music/" target="_blank">      <article class="mk-color-item color4">
+            <div class="item-logo">
+                 <img src="img/04.png">
+            </div>
+            <h3>学海泛舟</h3>
+            <p>为教师泛舟网络准备的导航</p>
+          <i class="light"></i>
+      </article>
+    </a>
+</div>      <!-- mk-item -->
+
+<div class="mk-item">
+    <a href="/music/" target="_blank">      <article class="mk-color-item color5">
+            <div class="item-logo">
+               <img src="img/05.png">
+            </div>
+            <h3>Software</h3>
+            <p>Windows 系统推荐安装的软件</p>
+          <i class="light"></i>
+      </article>
+    </a>
+</div>      <!-- mk-item -->
+
+  <div class="mk-item">
+    <a href="http://www.12580sky.com/" target="_blank">      <article class="mk-color-item color6">
+            <div class="item-logo">
+                 <img src="img/06.png">
+            </div>
+            <h3>APP</h3>
+            <p>Android 手机 / 平板推荐应用</p>
+          <i class="light"></i>
+      </article>
+    </a>
+</div>      <!-- mk-item -->
+  
+<div class="mk-item">
+    <a href="/qrcode/" target="_blank">      <article class="mk-color-item color2">
+            <div class="item-logo">
+                <img src="img/07.png">
+            </div>
+            <h3>网际航灯</h3>
+            <p>冲浪不迷路-海量优秀网站推荐</p>
+          <i class="light"></i>
+      </article>
+    </a>
+</div>      <!-- mk-item -->
+<div class="mk-item">
+    <a href="/music/" target="_blank">      <article class="mk-color-item color6">
+            <div class="item-logo">
+                 <img src="img/08.png">
+            </div>
+            <h3>原汁原味</h3>
+            <p>冰子琪公众号原创文章汇集</p>
+          <i class="light"></i>
+      </article>
+    </a>
+</div>    <!-- mk-item-box --> 
+
+</div>  <!-- mk-item-box -->
+
+</section>  <!--  class="section" -->
+
+<section class="section">  <!--  class="section" -->
+    <div class="mk-big-title">
+        <h4>About</h4>
+    </div>
+    
+    <div class="about-content">
+        <p>本网页收集了原版 windows 操作系统,Office 办公软件，并提供了下载安装方法。PC 端和 Android 端必装的软件和 APP，教师常用的教学软件、学科教学工具都有推荐。几个导航网站提供了教师经常要用的网站和其他网站。</p>
+        
+        <p>本人推荐软件以开源，免费为主，部分软件是破解，只可用于研究，不可传播。各软件和APP在使用过程中一定要注意遵守相关法律，避免不必要的版权纠纷！
+        强烈推荐大家使用正版软件！！
+        本网页借鉴了孟坤、等的源码。</p>
+        
+        
+        
+        <p>欲了解更多内容，请访问我的 微信公众</p>
+    </div>
+</section>
+
+</div>     <!-- class=container -->
+
+<footer class="footer">
+     <p>Copyright (c) 2022.&nbsp;&nbsp;&nbsp;&nbsp;Design by 冰子琪</p>
+</footer>
+
+<!-- 返回顶部 -->
+<div class="mk-uptop" title="点击返回顶部"></div>
+
+<!-- jq -->
+<script src="jquery.min.js"></script>
+<script src="vector.js"></script>
+
+<script>
+$(function(){
+    
+    // 页面加载完毕后固定页头高度，防止在某些自动隐藏工具栏的移动浏览器上出现页面抖动现象
+    $(".header").height($(window).height());
+    
+	// 初始化 传入dom id
+	var victor = new Victor("victor-container", "victor-output");
+	var theme = [
+			["#002c4a", "#005584"],
+			["#35ac03", "#3f4303"],
+			["#ac0908", "#cd5726"],
+			["#18bbff", "#00486b"]
+		];
+	var color = theme[fRandomBy(0, 3)];
+	victor(color).set();
+	
+	// 监听滚动变化
+    $(window).scroll(function() {
+        if($(window).scrollTop() < 300) {
+            $(".mk-uptop").removeClass("show");
+        } else {
+            $(".mk-uptop").addClass("show");
+        }
+    });
+    
+    // 返回顶部
+    $(".mk-uptop").click(function(){
+		$("html, body").animate({scrollTop:0}, "normal"); 
+		return false; 
+	});
+	
+    // 烦人的 CNZZ，输出一大堆错误信息、、清除掉！	
+	console.clear();
+});
+
+
+
+/*******************************
+ * 函数名：生成指定范围的随机数
+ * 输入：  (under)下限   (over)上限
+ * 输出： 所需要的数值
+ * *****************************/
+function fRandomBy(under, over) { 
+   switch(arguments.length){ 
+     case 1: return parseInt(Math.random()*under+1); 
+     case 2: return parseInt(Math.random()*(over-under+1) + under); 
+     default: return 0; 
+   } 
+} 
+</script>
+
+<style></body></style>
 
 </body>
-
+	<script src=" ./js/search.min.js"> </script>
+	<script src=" ./js/jsonload.js"> </script>
 </html>
-
-

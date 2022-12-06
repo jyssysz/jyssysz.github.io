@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "FZCuJinLJW";
+    src: url("FZCuJinLJW.eot");
+    src: url("FZCuJinLJW.eot?#iefix") format("embedded-opentype"),
+        url('FZCuJinLJW.woff') format('woff'),
+        url('FZCuJinLJW.svg') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'SF-Pro-Display-Semibold';
+    src: url("SF-Pro-Display-Semibold.eot");
+    src: url("SF-Pro-Display-Semibold.eot?#iefix") format("embedded-opentype"),
+        url('SF-Pro-Display-Semibold.woff') format('woff'),
+        url('SF-Pro-Display-Semibold.svg') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
