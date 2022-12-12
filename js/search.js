@@ -221,34 +221,10 @@ $(function() {
 			icon: 'icon-youku',
 			url: 'https://so.youku.com/search_video/q_'
 		}, {
-			name: '小刀',
-			icon: 'icon-sousuo1',
-			url: 'https://www.x6d.com/daowangsousuo?q='
-		}, {
-			name: '小K',
-			icon: 'icon-youku',
-			url: 'https://so.youku.com/search_video/q_'
-		}, {
-			name: "小高",
-            icon: "icon-sousuo1",
-            url: "https://www.12580sky.com/index.php?keyword="
-        }, {
 			name: '吾爱',
 			icon: 'icon-wuaipojie',
 			url: 'http://api.1da.top/go/wuai.php?q='
 		}, {
-            name: "精易",
-            icon: "icon-bangong",
-            url: "http://api.1da.top/go/jingyi.php?q="
-        }, {
-			name: 'CSDN',
-			icon: 'icon-zaixianbianji',
-			url: 'https://so.csdn.net/so/search/s.do?q='
-		}, {
-			name: 'V2EX',
-            icon: 'icon-tianjiagongshi',
-            url: 'https://www.sov2ex.com/?q='
-        }, {
             name: '站酷',
             icon: 'icon-jianguo',
             url: 'https://www.zcool.com.cn/search/content?&word='
