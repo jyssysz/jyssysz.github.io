@@ -1,10 +1,10 @@
 (function() {
 	//当浏览器窗口被调整大小时触发
 	window.onresize = function() {
-		ShowHideElement("i-link-box", "linkList-item", 80%);
+		ShowHideElement("i-link-box", "linkList-item", 70%);
 	}
 	window.onload = function() {
-		ShowHideElement("i-link-box", "linkList-item", 80%);
+		ShowHideElement("i-link-box", "linkList-item", 70%);
 	}
 
 	function ShowHideElement(Element1, Element2, Vaule) {
